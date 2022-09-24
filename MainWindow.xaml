@@ -1,0 +1,18 @@
+﻿<Window x:Class="evelina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:evelina"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="15">
+    <Grid x:Name="gridon">
+        <Button x:Name="buton1" Width="190" Height="50" Background="DeepPink"
+            Content="Блокировать" HorizontalAlignment="Left" Margin="140,186,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontStyle="Italic" Click="buton1_Click"></Button>
+        <Button x:Name="button2" Width="190" Height="50" Background="DeepPink"
+            Content="Разблокировать" HorizontalAlignment="Left" Margin="479,186,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontStyle="Italic" Click="button2_Click"></Button>
+        <TextBox x:Name="textBox1"  HorizontalAlignment="Left" Height="38" Margin="261,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="278"/>
+        <Button x:Name="button3" Content="Сюрприз!!" HorizontalAlignment="Left" Margin="347,186,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click" Height="50" Background="#FFEE0404" FontWeight="Bold" FontSize="20" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

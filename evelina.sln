@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evelina", "evelina.csproj", "{77735209-FAA8-4DE9-B0A9-88CB3EF41113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77735209-FAA8-4DE9-B0A9-88CB3EF41113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77735209-FAA8-4DE9-B0A9-88CB3EF41113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77735209-FAA8-4DE9-B0A9-88CB3EF41113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77735209-FAA8-4DE9-B0A9-88CB3EF41113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9D55F64-9E24-4FF3-9AD1-8D2CF202A542}
+	EndGlobalSection
+EndGlobal
